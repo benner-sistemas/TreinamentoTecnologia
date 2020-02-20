@@ -1,0 +1,25 @@
+﻿<h1>Cadastro de Pessoas</h1>
+<div class="row">
+    <label>Nome</label>
+    <input type="text" name="txtNome" id="txtNome" /> <br />
+    <label>Cpf</label>
+    <input type="text" name="txtCpf" id="txtCpf" /> <br />
+    <label>País</label>
+    <select name="selPais" id="selPais">
+        @foreach(var pais in Model.Paises)
+        {
+            <option value="@pais.Handle">@pais.Nome</option>
+        }
+    </select><br />
+    @Html.ActionLinkWes("Salvar Dados", "Salvar")
+</div>
+
+<h1>Lista de Pessoas</h1>
+<div class="portlet light">
+    <ul>
+    @foreach(var pessoa in Model.Pessoas)
+    {
+        <li>@pessoa.Nome - @pessoa.Cpf - Pessoa.Pais.ToString()</li>
+    }
+    </ul>
+</div>
