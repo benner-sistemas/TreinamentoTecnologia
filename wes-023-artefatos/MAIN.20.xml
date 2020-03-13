@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<MenuPortable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Id>MAIN</Id>
+  <Level>Tecnologia</Level>
+  <MenuItems>
+    <MenuItemPortable>
+      <Id>PLANOS</Id>
+      <Order>6</Order>
+      <Type>Page</Type>
+      <Name>Planos</Name>
+      <PageId>PAGES_PLANOS_GRID</PageId>
+      <Active>true</Active>
+      <Level>Benner</Level>
+    </MenuItemPortable>
+    <MenuItemPortable>
+      <Id>PAGES_TESTE_NOVOARTEFATO</Id>
+      <Order>14</Order>
+      <Type>Page</Type>
+      <Name>Teste Novo Artefato</Name>
+      <PageId>PAGES_TESTE_NOVOARTEFATO</PageId>
+      <Active>true</Active>
+      <Level>Benner</Level>
+    </MenuItemPortable>
+    <MenuItemPortable>
+      <Id>CARROS</Id>
+      <Order>30</Order>
+      <Type>Page</Type>
+      <Name>Carros</Name>
+      <PageId>PAGES_CARROS_GRID</PageId>
+      <Active>true</Active>
+      <Level>Benner</Level>
+    </MenuItemPortable>
+    <MenuItemPortable>
+      <Id>PAGES_LOCALIZACAO_MENU</Id>
+      <Order>61</Order>
+      <Type>Page</Type>
+      <Name>Localização</Name>
+      <PageId>PAGES_LOCALIZACAO_MENU</PageId>
+      <Active>true</Active>
+      <Level>Benner</Level>
+    </MenuItemPortable>
+    <MenuItemPortable>
+      <Id>MODELOSCARROS</Id>
+      <ParentId>CARROS</ParentId>
+      <Order>124</Order>
+      <Type>Page</Type>
+      <Name>Modelos Carros</Name>
+      <PageId>PAGES_MODELOSCARROS_GRID</PageId>
+      <Active>true</Active>
+      <Level>Benner</Level>
+      <CssParaIcone>fa fa-cubes</CssParaIcone>
+    </MenuItemPortable>
+    <MenuItemPortable>
+      <Id>PAGES_MARCAS_GRID</Id>
+      <ParentId>CARROS</ParentId>
+      <Order>249</Order>
+      <Type>Page</Type>
+      <Name>Marcas</Name>
+      <PageId>PAGES_MARCAS_GRID</PageId>
+      <Active>true</Active>
+      <Level>Benner</Level>
+      <CssParaIcone>fa fa-trademark</CssParaIcone>
+    </MenuItemPortable>
+    <MenuItemPortable>
+      <Id>CADCARROS</Id>
+      <ParentId>CARROS</ParentId>
+      <Order>259</Order>
+      <Type>Page</Type>
+      <Name>Carros</Name>
+      <PageId>PAGES_CARROS_GRID</PageId>
+      <Active>true</Active>
+      <Level>Benner</Level>
+      <CssParaIcone>fa fa-car</CssParaIcone>
+    </MenuItemPortable>
+    <MenuItemPortable>
+      <Id>PESSOAS</Id>
+      <Order>499</Order>
+      <Type>Page</Type>
+      <Name>Pessoas</Name>
+      <PageId>PAGES_PESSOAS_GRID</PageId>
+      <Active>true</Active>
+      <Level>Benner</Level>
+    </MenuItemPortable>
+  </MenuItems>
+</MenuPortable>
